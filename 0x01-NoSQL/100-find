@@ -1,0 +1,3 @@
+// Searches for docs that name start with Holberton
+
+db.school.find({name: /^Holberton/})
